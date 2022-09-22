@@ -1,0 +1,34 @@
+.app{
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+    form{
+        width: 280px;
+        background-color: aliceblue;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 7px 0 black;
+        position: relative;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%,-50%);
+        h4{
+            margin: 0;
+        }
+        label{
+            padding: 0 10px;
+        }
+        input{
+            margin: 4px 0;
+        }
+        p{
+            font-size: 12px;
+            font-weight: 400;
+            cursor: pointer;
+            &:hover{
+                font-weight: 500;
+            }
+        }
+    }
+}
